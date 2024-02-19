@@ -1,0 +1,94 @@
+/* General Styling */
+nav {
+  background-color: white;
+}
+.navbar-nav .nav-item {
+  padding-right: 35px;
+}
+
+#ftComp img {
+  max-width: 120px;
+}
+
+#ftComp div:nth-child(2) img {
+  max-width: 190px !important;
+}
+
+#ftComp div:nth-child(3) img {
+  max-width: 75px !important;
+}
+
+#myPhoto {
+  max-width: 500px;
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 570px) {
+  #ftComp img {
+    max-width: 90px;
+    padding-bottom: 20px;
+  }
+
+  #ftComp div:nth-child(2) img {
+    max-width: 150px !important;
+  }
+
+  #ftComp div:nth-child(3) img {
+    max-width: 65px !important;
+  }
+
+  #myPhoto {
+    max-width: 200px;
+    margin-top: -40px;
+  }
+
+  #myExplist li {
+    min-width: 145%;
+    position: relative;
+    right: 20%;
+  }
+
+  .card {
+    min-width: 100%;
+  }
+
+  #label-1,
+  #subLabelGtkm,
+  #subLabelExp {
+    min-width: 100%;
+  }
+  #sayHello, .jumbotron-text p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+
+  .carousel {
+    min-width: 100%;
+    right: 5%;
+  }
+
+  .carousel img {
+    min-width: 100%;
+  }
+  #jumbotron-body {
+    left: 3%;
+    position: relative;
+  }
+}
+
+/* Additional Styling */
+
+.card {
+  width: 20rem;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul img {
+  max-width: 120px !important;
+}
